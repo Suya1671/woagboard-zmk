@@ -105,6 +105,10 @@ zephyr_udc0: &usbd {
     status = "okay";
 };
 
+&adc {
+    status = "okay";
+};
+
 &flash0 {
 	/*
 	 * For more information, see:

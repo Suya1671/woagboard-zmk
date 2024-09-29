@@ -25,6 +25,9 @@ config BT_CTLR
 config ZMK_BLE
 	default y
 
+config NANOPB
+	default ZMK_STUDIO_RPC
+
 if USB
 
 config USB_NRFX
