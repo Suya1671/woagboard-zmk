@@ -33,7 +33,6 @@ CONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY=y
 
 # ZMK Studio (alpha)
 CONFIG_ZMK_STUDIO=y
-CONFIG_ZMK_STUDIO_RPC=y
 
 # Turn on logging, and set ZMK logging to debug output
 # CONFIG_LOG=y
