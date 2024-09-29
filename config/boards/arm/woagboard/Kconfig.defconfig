@@ -1,0 +1,45 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if WOAGBOARD_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Woagboard"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # WOAGBOARD_LEFT
+
+if WOAGBOARD_LEFT || WOAGBOARD_RIGHT
+
+config BOARD
+	default "woagboard"
+
+config ZMK_SPLIT
+    default y
+
+config BT_CTLR
+	default BT
+
+
+if USB
+
+config USB_NRFX
+	default y
+
+config USB_DEVICE_STACK
+	default y
+
+endif # USB
+
+config ZMK_BLE
+	default y
+
+config NANOPB
+	default ZMK_STUDIO
+
+config I2C
+	default y
+
+endif

@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/zmkfirmware/zmk/refs/heads/main/schema/hardware-metadata.schema.json
+file_format: "1"
+id: woagboard
+name: Woagboard
+url: https://github.com/Suyashtnt/Woagboard
+type: board
+arch: arm
+features:
+  - keys
+outputs:
+  - usb
+  - ble
+siblings:
+  - woagboard_left
+  - woagboard_right
