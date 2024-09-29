@@ -36,9 +36,6 @@ endif # USB
 config ZMK_BLE
 	default y
 
-config NANOPB
-	default ZMK_STUDIO
-
 config I2C
 	default y
 
