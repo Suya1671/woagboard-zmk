@@ -5,11 +5,6 @@
 #include "woagboard.dtsi"
 
 /{
-    chosen {
-		zmk,battery = &vbatt;
-		// zephyr,console = &cdc_acm_uart;
-    };
-
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-direct";
         wakeup-source;
@@ -38,10 +33,6 @@
         yellow_led: led_0 {
             gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
         };
-    };
-
-    vbatt: vbatt {
-        compatible = "zmk,battery-nrf-vddh";
     };
 };
 

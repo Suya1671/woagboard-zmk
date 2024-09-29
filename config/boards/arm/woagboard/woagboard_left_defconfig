@@ -26,18 +26,18 @@ CONFIG_FLASH_MAP=y
 CONFIG_ZMK_USB=y
 CONFIG_ZMK_BLE=y
 
-# Enable I2C (TODO: figure out if this is needed)
-CONFIG_I2C=y
-CONFIG_I2C_NRFX=y
-
 CONFIG_PINCTRL=y
 
 # Windows Battery Reporting Fix
 CONFIG_BT_GATT_ENFORCE_SUBSCRIPTION=n
 
-# Enable ZMK Studio (alpha)
-CONFIG_ZMK_STUDIO=y
-CONFIG_NANOPB=y
+# Get both central and peripheral battery levels
+CONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING=y
+CONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY=y
+
+# ZMK Studio (alpha)
+CONFIG_ZMK_STUDIO=n
+CONFIG_ZMK_STUDIO_RPC=n
 
 # Turn on logging, and set ZMK logging to debug output
 # CONFIG_LOG=y
