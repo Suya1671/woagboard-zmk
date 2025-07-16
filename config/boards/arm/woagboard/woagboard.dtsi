@@ -48,48 +48,80 @@
         kscan = <&kscan0>;
 
         keys  //                     w   h    x    y     rot    rx    ry
-            = <&key_physical_attrs 100  94    0  139  (-900)    50   186>
-            , <&key_physical_attrs 100  94  126   35  (-300)   176    82>
-            , <&key_physical_attrs 100  94  250    0     200   300    47>
-            , <&key_physical_attrs 100  94  350   15     200   400    62>
-            , <&key_physical_attrs 100  94  449   30     200   499    78>
-            , <&key_physical_attrs 100  94   14  237  (-900)    64   285>
-            , <&key_physical_attrs 100  94  130  135  (-300)   180   182>
-            , <&key_physical_attrs 100  94  247   99     200   297   147>
-            , <&key_physical_attrs 100  94  347  115     200   397   162>
-            , <&key_physical_attrs 100  94  446  130     200   496   178>
-            , <&key_physical_attrs 100  94   29  336  (-900)    79   383>
-            , <&key_physical_attrs 100  94  135  235  (-300)   185   282>
-            , <&key_physical_attrs 100  94  244  199     200   294   247>
-            , <&key_physical_attrs 100  94  343  215     200   393   262>
-            , <&key_physical_attrs 100  94  443  230     200   493   278>
-            , <&key_physical_attrs 100  94  339  362     700   389   409>
-            , <&key_physical_attrs 100  94  449  392    2200   499   439>
-            , <&key_physical_attrs 100  94  549  452    3700   599   499>
-            , <&key_physical_attrs 100  94  843   30  (-200)   893    78>
-            , <&key_physical_attrs 100  94  942   15  (-200)   992    62>
-            , <&key_physical_attrs 100  94 1042    0  (-200)  1092    47>
-            , <&key_physical_attrs 100  94 1167   35     300  1217    82>
-            , <&key_physical_attrs 100  94 1293  139     900  1343   186>
-            , <&key_physical_attrs 100  94  846  130  (-200)   896   178>
-            , <&key_physical_attrs 100  94  946  115  (-200)   996   162>
-            , <&key_physical_attrs 100  94 1045   99  (-200)  1095   147>
-            , <&key_physical_attrs 100  94 1162  135     300  1212   182>
-            , <&key_physical_attrs 100  94 1278  237     900  1328   285>
-            , <&key_physical_attrs 100  94  849  230  (-200)   899   278>
-            , <&key_physical_attrs 100  94  949  215  (-200)   999   262>
-            , <&key_physical_attrs 100  94 1049  199  (-200)  1099   247>
-            , <&key_physical_attrs 100  94 1157  235     300  1207   282>
-            , <&key_physical_attrs 100  94 1263  336     900  1313   383>
-            , <&key_physical_attrs 100  94  954  362  (-700)  1004   409>
-            , <&key_physical_attrs 100  94  843  392 (-2200)   893   439>
-            , <&key_physical_attrs 100  94  743  452 (-3700)   793   499>
+            = <&key_physical_attrs 100  94    0  133  (-900)    50   180>
+            , <&key_physical_attrs 100  94  127   36  (-300)   177    83>
+            , <&key_physical_attrs 100  94  252    0     200   302    47>
+            , <&key_physical_attrs 100  94  351   15     200   401    63>
+            , <&key_physical_attrs 100  94  450   43     200   500    90>
+            , <&key_physical_attrs 100  94  801   43  (-200)   851    90>
+            , <&key_physical_attrs 100  94  900   15  (-200)   950    63>
+            , <&key_physical_attrs 100  94 1000    0  (-200)  1050    47>
+            , <&key_physical_attrs 100  94 1125   36     300  1175    83>
+            , <&key_physical_attrs 100  94 1252  133     900  1302   180>
+            , <&key_physical_attrs 100  94   15  232  (-900)    65   279>
+            , <&key_physical_attrs 100  94  132  135  (-300)   182   183>
+            , <&key_physical_attrs 100  94  248  100     200   298   147>
+            , <&key_physical_attrs 100  94  348  115     200   398   163>
+            , <&key_physical_attrs 100  94  447  143     200   497   190>
+            , <&key_physical_attrs 100  94  805  143  (-200)   855   190>
+            , <&key_physical_attrs 100  94  904  115  (-200)   954   163>
+            , <&key_physical_attrs 100  94 1003  100  (-200)  1053   147>
+            , <&key_physical_attrs 100  94 1120  135     300  1170   183>
+            , <&key_physical_attrs 100  94 1237  232     900  1287   279>
+            , <&key_physical_attrs 100  94   30  331  (-900)    80   378>
+            , <&key_physical_attrs 100  94  137  235  (-300)   187   283>
+            , <&key_physical_attrs 100  94  245  200     200   295   247>
+            , <&key_physical_attrs 100  94  345  215     200   395   263>
+            , <&key_physical_attrs 100  94  444  243     200   494   290>
+            , <&key_physical_attrs 100  94  808  243  (-200)   858   290>
+            , <&key_physical_attrs 100  94  907  215  (-200)   957   263>
+            , <&key_physical_attrs 100  94 1007  200  (-200)  1057   247>
+            , <&key_physical_attrs 100  94 1115  235     300  1165   283>
+            , <&key_physical_attrs 100  94 1222  331     900  1272   378>
+            , <&key_physical_attrs 100  94  320  385  (-300)   370   432>
+            , <&key_physical_attrs 100  94  434  395    1200   484   442>
+            , <&key_physical_attrs 100  94  542  435    2700   592   482>
+            , <&key_physical_attrs 100  94  710  435 (-2700)   760   482>
+            , <&key_physical_attrs 100  94  818  395 (-1200)   868   442>
+            , <&key_physical_attrs 100  94  932  385     300   982   432>
             ;
-
     };
 
     vbatt: vbatt {
         compatible = "zmk,battery-nrf-vddh";
+    };
+
+    kscan0: kscan {
+        compatible = "zmk,kscan-gpio-direct";
+        wakeup-source;
+        // Index 0 = SW1 = RC(0,0)
+        input-gpios
+            = <&gpio0 3  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 7  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 4  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio1 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 28 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 8  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio1 4  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio1 2  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 22 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 9  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio1 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            ;
+    };
+
+    leds {
+        compatible = "gpio-leds";
+        blue_led: led_0 {
+            gpios = <&gpio0 16 GPIO_ACTIVE_HIGH>;
+        };
     };
 };
 
