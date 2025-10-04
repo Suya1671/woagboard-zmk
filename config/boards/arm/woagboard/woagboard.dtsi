@@ -137,9 +137,15 @@
         wakeup-source;
     };
 
+    wakeup_trigger: wakeup_trigger {
+        compatible = "zmk,gpio-key-wakeup-trigger";
+        trigger = <&soft_off_gpio_key>;
+        wakeup-source;
+    };
+
     soft_off_wakers {
         compatible = "zmk,soft-off-wakeup-sources";
-        wakeup-sources = <&wakeup_scan>;
+        wakeup-sources = <&wakeup_trigger>;
     };
 
     keys {
